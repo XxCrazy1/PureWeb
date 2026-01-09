@@ -1,0 +1,28 @@
+[
+    {
+        "id": 3001,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "facebook.net",
+            "resourceTypes": [
+                "script"
+            ]
+        }
+    },
+    {
+        "id": 3002,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "platform.twitter.com",
+            "resourceTypes": [
+                "script"
+            ]
+        }
+    }
+]

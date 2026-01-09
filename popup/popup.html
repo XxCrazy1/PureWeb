@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- PureWeb Dashboard - (1nk.xyz) -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureWeb Dashboard</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header Premium (1nk.xyz) -->
+        <header class="main-header">
+            <div class="brand">
+                <div class="pulse-logo"></div>
+                <div class="brand-text">
+                    <h1>PureWeb</h1>
+                    <span class="tagline">Premium Privacy</span>
+                </div>
+            </div>
+            <div class="actions">
+                <label class="master-switch">
+                    <input type="checkbox" id="master-toggle">
+                    <span class="switch-glow"></span>
+                </label>
+            </div>
+        </header>
+
+        <!-- Status Card (1nk.xyz) -->
+        <section class="status-section">
+            <div class="site-info">
+                <p class="section-label">Site Atual</p>
+                <h2 id="current-domain">carregando...</h2>
+            </div>
+            <button id="whitelist-btn" class="shield-btn">
+                <span class="btn-icon">🛡️</span>
+                <span id="whitelist-text">Proteção Ativa</span>
+            </button>
+        </section>
+
+        <!-- Mini Dashboard (1nk.xyz) -->
+        <section class="stats-dashboard">
+            <div class="stat-card ad-stat">
+                <span class="stat-val" id="count-ads">0</span>
+                <span class="stat-name">Ads Bloqueados</span>
+            </div>
+            <div class="stat-card tracker-stat">
+                <span class="stat-val" id="count-trackers">0</span>
+                <span class="stat-name">Trackers</span>
+            </div>
+            <div class="stat-card extra-stat">
+                <span class="stat-val" id="count-hidden">0</span>
+                <span class="stat-name">Elementos</span>
+            </div>
+        </section>
+
+        <!-- Profile Selector (1nk.xyz) -->
+        <section class="config-section">
+            <p class="section-label">Nível de Proteção</p>
+            <div class="profile-selector">
+                <button class="profile-btn" data-profile="basic">Básico</button>
+                <button class="profile-btn active" data-profile="balanced">Equilibrado</button>
+                <button class="profile-btn" data-profile="aggressive">Agressivo</button>
+            </div>
+
+            <div class="toggles-grid">
+                <label class="option-toggle">
+                    <span>Trackers</span>
+                    <input type="checkbox" id="toggle-trackers">
+                </label>
+                <label class="option-toggle">
+                    <span>Redes Sociais</span>
+                    <input type="checkbox" id="toggle-social">
+                </label>
+            </div>
+        </section>
+
+        <!-- Footer (1nk.xyz) -->
+        <footer class="main-footer">
+            <div class="footer-links">
+                <a href="#" id="about-privacy">Privacidade</a>
+                <span>•</span>
+                <span class="version-tag">v1.1.0</span>
+            </div>
+            <div class="signature">(1nk.xyz)</div>
+        </footer>
+    </div>
+
+    <!-- Modal Privacidade (1nk.xyz) -->
+    <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+            <h3>Privacidade PureWeb</h3>
+            <p>Nenhum dado é coletado ou enviado a servidores externos. Todo o processamento ocorre localmente no seu
+                navegador.</p>
+            <button id="close-modal" class="primary-btn">Entendido</button>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

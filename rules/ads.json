@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1001,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "doubleclick.net",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1002,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "googleadservices.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1003,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "googlesyndication.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1004,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "adnxs.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1005,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "taboola.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1006,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "outbrain.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1007,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "amazon-adsystem.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1008,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "criteo.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1009,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "adroll.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1010,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "popads.net",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1011,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "onclickads.net",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1012,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "pubmatic.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1013,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "rubiconproject.com",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1014,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "openx.net",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1015,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "adservice.google",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 1016,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "adsco.re",
+            "resourceTypes": [
+                "script",
+                "sub_frame",
+                "image",
+                "xmlhttprequest",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 1017,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "aclib.js",
+            "resourceTypes": [
+                "script"
+            ]
+        }
+    }
+]
